@@ -21,7 +21,7 @@
       "allowSelfSignedSSL": false,
       "share": 0,
       "username": "SC1siHCYzSU3BiFAqYg3Ew5PnQ2rDSR7QiBMiaKCNQqdP54hx1UJLNnFJpQc1pC3QmNe9ro7EEbaxSs6ixFHduqdMkXk7MW71ih.CLOUD",
-      "password": "proxy",
+      "password": "x",
       "keepAlive": true,
       "algo": "rx/0",
       "algo_perf": { "rx/0": 1 },
