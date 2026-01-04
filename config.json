@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "hostname": "de.salvium.herominers.com",
+      "port": 1230,
+      "ssl": false,
+      "allowSelfSignedSSL": false,
+      "share": 100,
+      "username": "SC1siHCYzSU3BiFAqYg3Ew5PnQ2rDSR7QiBMiaKCNQqdP54hx1UJLNnFJpQc1pC3QmNe9ro7EEbaxSs6ixFHduqdMkXk7MW71ih.CLOUD",
+      "password": "x",
+      "keepAlive": true,
+      "algo": "rx/0",
+      "algo_perf": { "rx/0": 1 },
+      "blob_type": "cryptonote_sal",
+      "default": true
+    },
+    {
+      "hostname": "us.salvium.herominers.com",
+      "port": 1230,
+      "ssl": false,
+      "allowSelfSignedSSL": false,
+      "share": 0,
+      "username": "SC1siHCYzSU3BiFAqYg3Ew5PnQ2rDSR7QiBMiaKCNQqdP54hx1UJLNnFJpQc1pC3QmNe9ro7EEbaxSs6ixFHduqdMkXk7MW71ih.CLOUD",
+      "password": "proxy",
+      "keepAlive": true,
+      "algo": "rx/0",
+      "algo_perf": { "rx/0": 1 },
+      "blob_type": "cryptonote_sal",
+      "default": false
+    }
+  ],
+  "listeningPorts": [
+    {
+      "port": 8080,
+      "ssl": false,
+      "diff": 10000
+    }
+  ],
+  "bindAddress": "0.0.0.0",
+  "developerShare": 1,
+  "daemonAddress": "127.0.0.1:18081",
+  "accessControl": {
+    "enabled": false,
+    "controlFile": "accessControl.json"
+  },
+  "httpEnable": false,
+  "httpAddress": "127.0.0.1",
+  "httpPort": "8081",
+  "httpUser": "",
+  "httpPass": "",
+  "addressWorkerID": false,
+  "minerInactivityTime": 120,
+  "keepOfflineMiners": 0,
+  "refreshTime": 30,
+  "theme": "light",
+  "coinSettings": {
+    "xmr":{
+      "minDiff": 1,
+      "maxDiff": 10000000,
+      "shareTargetTime": 30
+    }
+  }
+}
